@@ -1,0 +1,11 @@
+# Core dependencies
+streamlit
+python-dotenv
+
+# LangChain & Anthropic
+langchain
+langchain-core
+langchain-anthropic
+
+# Optional if you're saving/loading prompt templates
+langchain[anthropic]
